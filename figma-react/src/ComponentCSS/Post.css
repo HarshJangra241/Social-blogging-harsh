@@ -1,0 +1,103 @@
+
+.post-main {
+  margin: 20px;
+  display: flex;
+}
+.blog-photo {
+  width: 268px;
+  height: 360px;
+  border-radius: 30px 0px 0px 30px;
+}
+.blog-detail {
+  width: 268px;
+  height: 339px;
+  padding: 10px;
+  border: 0.5px solid;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+  border-radius: 0px 30px 30px 0px;
+}
+.blog-date {
+  margin: 15px;
+}
+.blog-title {
+  font-size: 30px;
+  color: brown;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  margin: 15px;
+}
+.blog-des {
+  font-size: medium;
+  color: brown;
+  margin: 15px;
+  font-size: large;
+}
+.like-comment {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.like-comment div {
+  margin: 4px;
+}
+
+.show-comments {
+  height: 400px;
+  width: 300px;
+  background-color: #faedcd;
+  border-radius: 20px;
+  position: relative;
+  right: 20px;
+  top: 50px;
+  text-align: center;
+  margin-right: 60px;
+}
+.map-comments {
+  background-color: white;
+  color: black;
+  height: 10%;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.map-comments p {
+  padding-left: 20px;
+}
+.del-icon {
+  display: block;
+  align-items: end;
+  align-content: center;
+}
+.send button {
+  margin: 2px;
+  padding: 5px;
+  height: 38px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+/* comments */
+.comment {
+  display: flex;
+  flex-direction: column;
+}
+.post-comment {
+  position: relative;
+  right: 12px;
+  bottom: 8px;
+}
+.post-comment textarea {
+  height: 20px;
+  width: 220px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.send {
+  display: flex;
+}

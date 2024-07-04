@@ -1,0 +1,120 @@
+.footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  box-shadow: 0 1px 1px brown, 0 2px 2px brown, 0 4px 4px brown, 0 6px 8px brown,
+    0 8px 16px brown;
+  padding: 10px; 
+}
+
+.font3 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-left: 1px;
+  color: black !important;
+  transition-duration: 0.2s;
+}
+
+.span-tag {
+  color: brown !important;
+  padding: 2px;
+  font-size: 30px;
+  transition-duration: 0.2s;
+}
+
+.blog-para {
+  text-align: start;
+  margin: 4px;
+  margin-left: 0;
+  line-height: 25px;
+  color: black;
+  transition-duration: 0.2s;
+}
+
+li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  list-style: none;
+  line-height: 32px;
+  transition-duration: 0.2s;
+}
+
+ul {
+  padding: 2px;
+}
+
+.font4 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  color: brown;
+  transition-duration: 0.2s;
+}
+
+.upperfooter {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid brown;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.part1,
+.part2,
+.part3,
+.part4 {
+  margin: 4px;
+  padding: 5px; 
+}
+
+.social {
+  padding: 12px 20px 0 5px;
+  font-size: 30px;
+  transition-duration: 0.2s;
+}
+
+.lowerfooter {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lowerfooter p {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Hover effects */
+.font3:hover,
+.span-tag:hover,
+.blog-para:hover,
+li:hover,
+.font4:hover,
+.social:hover,
+.lowerfooter p:hover {
+  text-shadow: 1px 1px 2px brown, 0 0 1em brown, 0 0 0.2em brown;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .upperfooter {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .part1,
+  .part2,
+  .part3,
+  .part4 {
+    margin: 10px 0;
+  }
+  .footer {
+    box-shadow: 0 20px 10px -20px rgba(0, 0, 0, 0.45) inset;
+  }
+  .lowerfooter p {
+    text-align: center;
+  }
+}
